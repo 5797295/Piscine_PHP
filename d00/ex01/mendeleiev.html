@@ -1,0 +1,930 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- mendeleiev.html                                    :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: jukim <marvin@42.fr>                       +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2018/06/26 07:43:18 by jukim             #+#    #+#            -->
+<!-- Updated: 2018/06/26 23:03:48 by jukim            ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<HTML>
+	<HEAD>
+		<TITLE>d00 ex01</TITLE>
+		<STYLE>
+			H1 {font-size: 40; color: white; text-align: center;}
+			H2 {text-align: center;}
+			p {font-size: 100%;}
+			body
+			{
+				background-image:url("https://github.com/5797295/Piscine_PHP/blob/master/d00/ex01/ex01.JPG?raw=true");
+				background-position: center;
+				background-size: cover;
+				height: 100%;
+				width: 100%;
+			}
+			table
+			{
+				border-spacing : 3px;
+				width: 100%;
+				height: 100%;
+			}
+			td, tr
+			{
+				border-spacing : 3px;
+				font-size: 100%;
+				width: 80px;
+				height: 50px;
+			}
+			.number {margin-left: 3px;}
+			.mass {text-align: right;}
+			.type1 {background-color: red;}
+			.type2 {background-color: orange;}
+			.type3 {background-color: yellow;}
+			.type4 {background-color: green;}
+			.type5 {background-color: #00be9d;}
+			.type6 {background-color: #00699d;}
+			.type7 {background-color: #a87860;}
+			.type8 {background-color: #bfb1c8;}
+			.type9 {background-color: pink;}
+			.type10 {background-color: #f3be9d;}
+		</STYLE>
+	</HEAD>
+	<BODY>
+		<DIV>
+			<TABLE align = "center">
+				<TR>
+					<TD class = "type3">
+						<DIV>
+							<p class = "mass">1.008</p>
+							<H2>H</H2>
+							<p class = "number">1</p>
+						</DIV>
+					</TD>
+					<TD colspan = "16">
+						<H1>PERIODIC TABLE</H1>
+					</TD>
+					<TD class = "type1">
+						<DIV>
+							<p class = "mass">4.003</p>
+							<H2>He</H2>
+							<p class = "number">2</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD class = "type7">
+						<DIV>
+							<p class = "mass">6.941</p>
+							<H2>Li</H2>
+							<p class = "number">3</p>
+						</DIV>
+					</TD>
+					<TD class = "type8">
+						<DIV>
+							<p class = "mass">9.012</p>
+							<H2>Be</H2>
+							<p class = "number">4</p>
+						</DIV>
+					</TD>
+					<TD colspan = "10">
+					</TD>
+					<TD class = "type4">
+						<DIV>
+							<p class = "mass">10.811</p>
+							<H2>B</H2>
+							<p class = "number">5</p>
+						</DIV>
+					</TD>
+					<TD class = "type3">
+						<DIV>
+							<p class = "mass">12.011</p>
+							<H2>C</H2>
+							<p class = "number">6</p>
+						</DIV>
+					</TD>
+					<TD class = "type3">
+						<DIV>
+							<p class = "mass">14.007</p>
+							<H2>N</H2>
+							<p class = "number">7</p>
+						</DIV>
+					</TD>
+					<TD class = "type3">
+						<DIV>
+							<p class = "mass">15.999</p>
+							<H2>O</H2>
+							<p class = "number">8</p>
+						</DIV>
+					</TD>
+					<TD class = "type2">
+						<DIV>
+							<p class = "mass">18.998</p>
+							<H2>F</H2>
+							<p class = "number">9</p>
+						</DIV>
+					</TD>
+					<TD class = "type1">
+						<DIV>
+							<p class = "mass">20.180</p>
+							<H2>Ne</H2>
+							<p class = "number">10</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD class = "type7">
+						<DIV>
+							<p class = "mass">22.99</p>
+							<H2>Na</H2>
+							<p class = "number">11</p>
+						</DIV>
+					</TD>
+					<TD class = "type8">
+						<DIV>
+							<p class = "mass">24.305</p>
+							<H2>Mg</H2>
+							<p class = "number">12</p>
+						</DIV>
+					</TD>
+					<TD colspan = "10">
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">26.982</p>
+							<H2>Al</H2>
+							<p class = "number">13</p>
+						</DIV>
+					</TD>
+					<TD class = "type4">
+						<DIV>
+							<p class = "mass">28.086</p>
+							<H2>Si</H2>
+							<p class = "number">14</p>
+						</DIV>
+					</TD>
+					<TD class = "type3">
+						<DIV>
+							<p class = "mass">30.974</p>
+							<H2>P</H2>
+							<p class = "number">15</p>
+						</DIV>
+					</TD>
+					<TD class = "type3">
+						<DIV>
+							<p class = "mass">32.066</p>
+							<H2>S</H2>
+							<p class = "number">16</p>
+						</DIV>
+					</TD>
+					<TD class = "type2">
+						<DIV>
+							<p class = "mass">35.453</p>
+							<H2>Cl</H2>
+							<p class = "number">17</p>
+						</DIV>
+					</TD>
+					<TD class = "type1">
+						<DIV>
+							<p class = "mass">39.948</p>
+							<H2>Ar</H2>
+							<p class = "number">18</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD class = "type7">
+						<DIV>
+							<p class = "mass">39.098</p>
+							<H2>K</H2>
+							<p class = "number">19</p>
+						</DIV>
+					</TD>
+					<TD class = "type8">
+						<DIV>
+							<p class = "mass">40.078</p>
+							<H2>Ca</H2>
+							<p class = "number">20</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">44.956</p>
+							<H2>Sc</H2>
+							<p class = "number">21</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">47.867</p>
+							<H2>Ti</H2>
+							<p class = "number">22</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">50.942</p>
+							<H2>V</H2>
+							<p class = "number">23</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">51.996</p>
+							<H2>Cr</H2>
+							<p class = "number">24</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">54.938</p>
+							<H2>Mn</H2>
+							<p class = "number">25</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">55.845</p>
+							<H2>Fe</H2>
+							<p class = "number">26</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">58.933</p>
+							<H2>Co</H2>
+							<p class = "number">27</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">58.693</p>
+							<H2>Ni</H2>
+							<p class = "number">28</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">63.546</p>
+							<H2>Cu</H2>
+							<p class = "number">29</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">65.38</p>
+							<H2>Zn</H2>
+							<p class = "number">30</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">69.723</p>
+							<H2>Ga</H2>
+							<p class = "number">31</p>
+						</DIV>
+					</TD>
+					<TD class = "type4">
+						<DIV>
+							<p class = "mass">72.631</p>
+							<H2>Ge</H2>
+							<p class = "number">32</p>
+						</DIV>
+					</TD>
+					<TD class = "type4">
+						<DIV>
+							<p class = "mass">74.922</p>
+							<H2>As</H2>
+							<p class = "number">33</p>
+						</DIV>
+					</TD>
+					<TD class = "type3">
+						<DIV>
+							<p class = "mass">78.971</p>
+							<H2>Se</H2>
+							<p class = "number">34</p>
+						</DIV>
+					</TD>
+					<TD class = "type2">
+						<DIV>
+							<p class = "mass">79.904</p>
+							<H2>Br</H2>
+							<p class = "number">35</p>
+						</DIV>
+					</TD>
+					<TD class = "type1">
+						<DIV>
+							<p class = "mass">83.789</p>
+							<H2>Kr</H2>
+							<p class = "number">36</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD class = "type7">
+						<DIV>
+							<p class = "mass">85.468</p>
+							<H2>Rb</H2>
+							<p class = "number">37</p>
+						</DIV>
+					</TD>
+					<TD class = "type8">
+						<DIV>
+							<p class = "mass">87.62</p>
+							<H2>Sr</H2>
+							<p class = "number">38</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">88.906</p>
+							<H2>Y</H2>
+							<p class = "number">39</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">91.224</p>
+							<H2>Zr</H2>
+							<p class = "number">40</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">92.906</p>
+							<H2>Nb</H2>
+							<p class = "number">41</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">95.95</p>
+							<H2>Mo</H2>
+							<p class = "number">42</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">98.907</p>
+							<H2>Tc</H2>
+							<p class = "number">43</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">101.07</p>
+							<H2>Ru</H2>
+							<p class = "number">44</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">102.906</p>
+							<H2>Rh</H2>
+							<p class = "number">45</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">106.42</p>
+							<H2>Pd</H2>
+							<p class = "number">46</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">107.868</p>
+							<H2>Ag</H2>
+							<p class = "number">47</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">112.424</p>
+							<H2>Cd</H2>
+							<p class = "number">48</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">114.818</p>
+							<H2>In</H2>
+							<p class = "number">49</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">118.711</p>
+							<H2>Sn</H2>
+							<p class = "number">50</p>
+						</DIV>
+					</TD>
+					<TD class = "type4">
+						<DIV>
+							<p class = "mass">121.60</p>
+							<H2>Sb</H2>
+							<p class = "number">51</p>
+						</DIV>
+					</TD>
+					<TD class = "type4">
+						<DIV>
+							<p class = "mass">127.6</p>
+							<H2>Te</H2>
+							<p class = "number">52</p>
+						</DIV>
+					</TD>
+					<TD class = "type2">
+						<DIV>
+							<p class = "mass">126.904</p>
+							<H2>I</H2>
+							<p class = "number">53</p>
+						</DIV>
+					</TD>
+					<TD class = "type1">
+						<DIV>
+							<p class = "mass">131.294</p>
+							<H2>Xe</H2>
+							<p class = "number">54</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD class = "type7">
+						<DIV>
+							<p class = "mass">132.905</p>
+							<H2>Cs</H2>
+							<p class = "number">55</p>
+						</DIV>
+					</TD>
+					<TD class = "type8">
+						<DIV>
+							<p class = "mass">137.328</p>
+							<H2>Ba</H2>
+							<p class = "number">56</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "number">57-71</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">178.49</p>
+							<H2>Hf</H2>
+							<p class = "number">72</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">180.948</p>
+							<H2>Ta</H2>
+							<p class = "number">73</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">183.84</p>
+							<H2>W</H2>
+							<p class = "number">74</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">186.207</p>
+							<H2>Re</H2>
+							<p class = "number">75</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">190.23</p>
+							<H2>Os</H2>
+							<p class = "number">76</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">192.217</p>
+							<H2>Ir</H2>
+							<p class = "number">77</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">195.085</p>
+							<H2>Pt</H2>
+							<p class = "number">78</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">196.967</p>
+							<H2>Au</H2>
+							<p class = "number">79</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">200.592</p>
+							<H2>Hg</H2>
+							<p class = "number">80</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">204.383</p>
+							<H2>Ti</H2>
+							<p class = "number">81</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">207.2</p>
+							<H2>Pb</H2>
+							<p class = "number">82</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">208.980</p>
+							<H2>Bi</H2>
+							<p class = "number">83</p>
+						</DIV>
+					</TD>
+					<TD class = "type4">
+						<DIV>
+							<p class = "mass">[208.982]</p>
+							<H2>Po</H2>
+							<p class = "number">84</p>
+						</DIV>
+					</TD>
+					<TD class = "type2">
+						<DIV>
+							<p class = "mass">209.987</p>
+							<H2>At</H2>
+							<p class = "number">85</p>
+						</DIV>
+					</TD>
+					<TD class = "type1">
+						<DIV>
+							<p class = "mass">222.018</p>
+							<H2>Rn</H2>
+							<p class = "number">86</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD class = "type7">
+						<DIV>
+							<p class = "mass">223.020</p>
+							<H2>Fr</H2>
+							<p class = "number">87</p>
+						</DIV>
+					</TD>
+					<TD class = "type8">
+						<DIV>
+							<p class = "mass">226.025</p>
+							<H2>Ra</H2>
+							<p class = "number">88</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "number">89-103</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[261]</p>
+							<H2>Rf</H2>
+							<p class = "number">104</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[262]</p>
+							<H2>Db</H2>
+							<p class = "number">105</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[266]</p>
+							<H2>Sg</H2>
+							<p class = "number">106</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[264]</p>
+							<H2>Bh</H2>
+							<p class = "number">107</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[269]</p>
+							<H2>Hs</H2>
+							<p class = "number">108</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[278]</p>
+							<H2>Mt</H2>
+							<p class = "number">109</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[281]</p>
+							<H2>Ds</H2>
+							<p class = "number">110</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[280]</p>
+							<H2>Rg</H2>
+							<p class = "number">111</p>
+						</DIV>
+					</TD>
+					<TD class = "type6">
+						<DIV>
+							<p class = "mass">[285]</p>
+							<H2>Cn</H2>
+							<p class = "number">112</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">[286]</p>
+							<H2>Nh</H2>
+							<p class = "number">113</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">[289]</p>
+							<H2>Fi</H2>
+							<p class = "number">114</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">[286]</p>
+							<H2>Mc</H2>
+							<p class = "number">115</p>
+						</DIV>
+					</TD>
+					<TD class = "type5">
+						<DIV>
+							<p class = "mass">[293]</p>
+							<H2>Lv</H2>
+							<p class = "number">116</p>
+						</DIV>
+					</TD>
+					<TD class = "type2">
+						<DIV>
+							<p class = "mass">[294]</p>
+							<H2>Ts</H2>
+							<p class = "number">117</p>
+						</DIV>
+					</TD>
+					<TD class = "type1">
+						<DIV>
+							<p class = "mass">[294]</p>
+							<H2>Og</H2>
+							<p class = "number">118</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+					</TD>
+					<TD>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">138.905</p>
+							<H2>La</H2>
+							<p class = "number">57</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">140.116</p>
+							<H2>Ce</H2>
+							<p class = "number">58</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">140.908</p>
+							<H2>Pr</H2>
+							<p class = "number">59</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">144.913</p>
+							<H2>Nd</H2>
+							<p class = "number">60</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">144.913</p>
+							<H2>Pm</H2>
+							<p class = "number">61</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">150.36</p>
+							<H2>Sm</H2>
+							<p class = "number">62</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">151.964</p>
+							<H2>Eu</H2>
+							<p class = "number">63</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">157.25</p>
+							<H2>Gd</H2>
+							<p class = "number">64</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">158.925</p>
+							<H2>Tb</H2>
+							<p class = "number">65</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">162.500</p>
+							<H2>Dy</H2>
+							<p class = "number">66</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">164.930</p>
+							<H2>Ho</H2>
+							<p class = "number">67</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">167.259</p>
+							<H2>Er</H2>
+							<p class = "number">68</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">168.934</p>
+							<H2>Tm</H2>
+							<p class = "number">69</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">173.055</p>
+							<H2>Yb</H2>
+							<p class = "number">70</p>
+						</DIV>
+					</TD>
+					<TD class = "type9">
+						<DIV>
+							<p class = "mass">174.967</p>
+							<H2>Lu</H2>
+							<p class = "number">71</p>
+						</DIV>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+					</TD>
+					<TD>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">227.028</p>
+							<H2>Ac</H2>
+							<p class = "number">89</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">232.038</p>
+							<H2>Th</H2>
+							<p class = "number">90</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">231.036</p>
+							<H2>Pa</H2>
+							<p class = "number">91</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">238.029</p>
+							<H2>U</H2>
+							<p class = "number">92</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">237.048</p>
+							<H2>Np</H2>
+							<p class = "number">93</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">244.064</p>
+							<H2>Pu</H2>
+							<p class = "number">94</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">243.061</p>
+							<H2>Am</H2>
+							<p class = "number">95</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">247.070</p>
+							<H2>Cm</H2>
+							<p class = "number">96</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">247.070</p>
+							<H2>Bk</H2>
+							<p class = "number">97</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">251.080</p>
+							<H2>Cf</H2>
+							<p class = "number">98</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">[254]</p>
+							<H2>Es</H2>
+							<p class = "number">99</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">257.095</p>
+							<H2>Fm</H2>
+							<p class = "number">100</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">258.1</p>
+							<H2>Md</H2>
+							<p class = "number">101</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">259.101</p>
+							<H2>No</H2>
+							<p class = "number">102</p>
+						</DIV>
+					</TD>
+					<TD class = "type10">
+						<DIV>
+							<p class = "mass">[262]</p>
+							<H2>Lr</H2>
+							<p class = "number">103</p>
+						</DIV>
+					</TD>
+				</TR>
+			</TABLE>
+		</DIV>
+	</BODY>
+</HTML>

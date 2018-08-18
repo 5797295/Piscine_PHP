@@ -1,0 +1,14 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles coordinates and rgb colors.
+
+Vertex and RGB values can be constructed by this input format:
+new Vertex(array('x' => <X_VALUE>, 'y' => <Y_VALUE>, 'z' => <Z_VALUE>));
+
+w and Color are optional input.
+
+w and Color are initially set at:
+1 and new Color(array('r' => 255, 'g' => 255, 'b' => 255);
+
+This class provides no additional methods.
+---------------------------------------------------------------------- Vertex ->
